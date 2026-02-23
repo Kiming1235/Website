@@ -53,7 +53,7 @@
 <!-- Open Graph (소셜 미디어) -->
 <meta property="og:type" content="website" />
 <meta property="og:title" content="대한카고크레인 - 중량물 운송 및 장비 연계 서비스" />
-<meta property="og:image" content="https://static.wixstatic.com/media/6820d4_25f1507fa06d4d2f910f93c63873a9ca~mv2.png" />
+<meta property="og:image" content="https://www.daehancargocrane.com/android-icon-192x192.png" />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
