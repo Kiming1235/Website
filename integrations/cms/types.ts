@@ -1,4 +1,10 @@
-import { items } from "@wix/data";
+export type WixDataItem = {
+  _id?: string;
+  _createdDate?: Date;
+  _updatedDate?: Date;
+};
 
-export type WixDataItem = items.WixDataItem;
-export type WixDataQueryResult = items.WixDataResult;
+export type QueryResult<T> = {
+  items: T[];
+  totalCount: number;
+};

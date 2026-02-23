@@ -26,7 +26,7 @@ export default function RegionalPageLayout({
   address,
   phone,
   galleryImages,
-  heroImage = 'https://static.wixstatic.com/media/6820d4_25f1507fa06d4d2f910f93c63873a9ca~mv2.png?originWidth=1920&originHeight=1024',
+  heroImage = 'https://www.daehancargocrane.com/android-icon-192x192.png',
   children,
   customDescription,
   showServices = true,
@@ -67,25 +67,25 @@ export default function RegionalPageLayout({
     {
       title: '중량물 운송',
       description: '대형 중량물의 안전하고 신속한 운송 서비스',
-      image: 'https://static.wixstatic.com/media/6820d4_c9881f26e2eb4484af8fae344801a956~mv2.png?id=truck-transport-icon',
+      image: 'https://www.daehancargocrane.com/android-icon-192x192.png',
       icon: Truck
     },
     {
       title: '자재 운반',
       description: '건설 현장 자재의 효율적인 운반 솔루션',
-      image: 'https://static.wixstatic.com/media/6820d4_41869dc2ff1e46309c274d78f621442b~mv2.png?id=material-transport-icon',
+      image: 'https://www.daehancargocrane.com/android-icon-192x192.png',
       icon: Package
     },
     {
       title: '장비·설비 이전',
       description: '산업 장비 및 설비의 전문적인 이전 서비스',
-      image: 'https://static.wixstatic.com/media/6820d4_a7fc09449ff5488ca3ca62843afc17c4~mv2.png?id=equipment-relocation-icon',
+      image: 'https://www.daehancargocrane.com/android-icon-192x192.png',
       icon: Building
     },
     {
       title: '장비 연계 운송 지원',
       description: '다양한 장비 연계를 통한 맞춤형 운송 지원',
-      image: 'https://static.wixstatic.com/media/6820d4_be75efdbf12a4da1af625e1c1b22f06c~mv2.png?id=equipment-support-icon',
+      image: 'https://www.daehancargocrane.com/android-icon-192x192.png',
       icon: Wrench
     }
   ];
@@ -94,19 +94,19 @@ export default function RegionalPageLayout({
     {
       title: '안전 우선',
       description: '모든 작업에서 안전을 최우선으로 하는 시스템',
-      iconImage: 'https://static.wixstatic.com/media/6820d4_cdb85c16a4b0494085b50da8bc740180~mv2.png',
+      iconImage: 'https://www.daehancargocrane.com/android-icon-192x192.png',
       icon: Shield
     },
     {
       title: '일정 준수',
       description: '약속된 일정을 철저히 지키는 신뢰성',
-      iconImage: 'https://static.wixstatic.com/media/6820d4_ec73d53691cc409ab86a6b81fdda104f~mv2.png',
+      iconImage: 'https://www.daehancargocrane.com/android-icon-192x192.png',
       icon: Clock
     },
     {
       title: '현장 맞춤 대응력',
       description: '각 현장의 특성에 맞는 최적화된 솔루션 제공',
-      iconImage: 'https://static.wixstatic.com/media/6820d4_11181c3b812a4a8da75a7f842e015ba9~mv2.png',
+      iconImage: 'https://www.daehancargocrane.com/android-icon-192x192.png',
       icon: Target
     }
   ];
@@ -256,12 +256,12 @@ export default function RegionalPageLayout({
                           <Image
                             src={(() => {
                               const providedImages = [
-                                'https://static.wixstatic.com/media/6820d4_9d1871c95c094a8183560db136be62d8~mv2.png',
-                                'https://static.wixstatic.com/media/6820d4_f2e0c7582196418a9762d50bafbce630~mv2.png',
-                                'https://static.wixstatic.com/media/6820d4_69cc42045f66443da1ab80d83447cc7b~mv2.png',
-                                'https://static.wixstatic.com/media/6820d4_f7cd85d436394680a31c4ed9fcf1d5ab~mv2.png'
+                                'https://www.daehancargocrane.com/android-icon-192x192.png',
+                                'https://www.daehancargocrane.com/android-icon-192x192.png',
+                                'https://www.daehancargocrane.com/android-icon-192x192.png',
+                                'https://www.daehancargocrane.com/android-icon-192x192.png'
                               ];
-                              return providedImages[index] || service.image || defaultServices[index]?.image || 'https://static.wixstatic.com/media/6820d4_c9881f26e2eb4484af8fae344801a956~mv2.png?id=default-service-icon';
+                              return providedImages[index] || service.image || defaultServices[index]?.image || 'https://www.daehancargocrane.com/android-icon-192x192.png';
                             })()}
                             alt={service.title || defaultServices[index]?.title || '서비스 이미지'}
                             className="w-16 h-16 mx-auto object-contain"
@@ -441,11 +441,11 @@ export default function RegionalPageLayout({
                           <Image
                             src={(() => {
                               const providedImages = [
-                                'https://static.wixstatic.com/media/6820d4_85d12eef1b2e4ef2bc301c5dac2433fa~mv2.png',
-                                'https://static.wixstatic.com/media/6820d4_0ea4fc30b5a44fa38bfee471295e4b81~mv2.png',
-                                'https://static.wixstatic.com/media/6820d4_e2bfc3695552481a9f0815e62b09bc51~mv2.png'
+                                'https://www.daehancargocrane.com/android-icon-192x192.png',
+                                'https://www.daehancargocrane.com/android-icon-192x192.png',
+                                'https://www.daehancargocrane.com/android-icon-192x192.png'
                               ];
-                              return providedImages[index] || strength.iconImage || 'https://static.wixstatic.com/media/6820d4_c07bcbd2a534420dae7f7da5d9f59354~mv2.png?originWidth=128&originHeight=128';
+                              return providedImages[index] || strength.iconImage || 'https://www.daehancargocrane.com/android-icon-192x192.png';
                             })()}
                             alt={strength.title || defaultStrengths[index]?.title || '강점 아이콘'}
                             className="w-20 h-20 mx-auto object-contain"

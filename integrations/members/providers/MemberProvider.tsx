@@ -56,7 +56,7 @@ export const MemberProvider: React.FC<MemberProviderProps> = ({ children }) => {
   // Member actions
   const actions: MemberActions = {
     /**
-     * Load current member from Wix
+     * Load current member from CMS auth provider
      */
     loadCurrentMember: useCallback(async () => {
       try {

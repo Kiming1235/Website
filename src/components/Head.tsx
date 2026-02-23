@@ -8,7 +8,7 @@ export const Head = () => {
       "대구광역시 동구 신암남로 145(신암동)에 위치한 중량물·산업 장비·건설 자재 운송 전문 기업입니다. 안전하고 효율적인 크레인 연계 운송 솔루션을 제공합니다.",
     url: "https://www.daehancargocrane.com",
     image:
-      "https://static.wixstatic.com/media/6820d4_b8bb9e74216a45bda96bf7cfb92afadd~mv2.png",
+      "https://www.daehancargocrane.com/android-icon-192x192.png",
     telephone: "010-2332-4822",
     address: {
       "@type": "PostalAddress",

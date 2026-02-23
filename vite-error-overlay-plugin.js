@@ -48,7 +48,7 @@ export class ErrorOverlay {
           margin-bottom: 8px;
 
           /* Text - Medium/Normal */
-          font-family: var(--wds-font-family-default, "Wix Madefor Text");
+          font-family: var(--wds-font-family-default, "system-ui");
           font-size: var(--wds-font-size-body-medium, 16px);
           font-style: normal;
           font-weight: 500;
@@ -61,7 +61,7 @@ export class ErrorOverlay {
           text-align: center;
 
           /* Text - Small/Thin */
-          font-family: var(--wds-font-family-default, "Wix Madefor Text");
+          font-family: var(--wds-font-family-default, "system-ui");
           font-size: var(--wds-font-size-body-small, 14px);
           font-style: normal;
           font-weight: 400;

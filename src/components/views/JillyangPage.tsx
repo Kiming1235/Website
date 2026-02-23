@@ -29,30 +29,30 @@ export default function JillyangPage({
 
   // 진량 지역 갤러리 (홈페이지와 동일하게 설정 - 24개 이미지)
   const galleryImages = [
-    { src: 'https://static.wixstatic.com/media/6820d4_56cd0a9079a8496cbb8c6edadc705a7f~mv2.jpeg', alt: '진량 크레인 작업 - 건설 현장' },
-    { src: 'https://static.wixstatic.com/media/6820d4_6cfe2e0520664c2f857c1ae73d7fbeea~mv2.jpg', alt: '진량 크레인 작업 현장 1' },
-    { src: 'https://static.wixstatic.com/media/6820d4_a7c6fd8325564b148b6da8f30ebb37be~mv2.jpg', alt: '진량 크레인 작업 현장 2' },
-    { src: 'https://static.wixstatic.com/media/6820d4_a82e1c0f6008438da039f08ba1155f90~mv2.jpg', alt: '진량 크레인 작업 현장 3' },
-    { src: 'https://static.wixstatic.com/media/6820d4_658942be47c843f09ee467b874a84f09~mv2.jpg', alt: '진량 크레인 작업 현장 4' },
-    { src: 'https://static.wixstatic.com/media/6820d4_7d5912f902ed458a9ab081d1f54e1ba2~mv2.jpg', alt: '진량 크레인 작업 현장 5' },
-    { src: 'https://static.wixstatic.com/media/6820d4_baa57dccb97142599f3a5ef455ba392a~mv2.jpg', alt: '진량 크레인 작업 현장 6' },
-    { src: 'https://static.wixstatic.com/media/6820d4_226bebe0ea604698958b4f3ddf87daa7~mv2.jpg', alt: '진량 크레인 작업 현장 7' },
-    { src: 'https://static.wixstatic.com/media/6820d4_d9967036235e430089fc18621661705e~mv2.jpg', alt: '진량 크레인 작업 현장 8' },
-    { src: 'https://static.wixstatic.com/media/6820d4_5302d235bca14224979f68d0a4df5d05~mv2.jpg', alt: '진량 크레인 작업 현장 9' },
-    { src: 'https://static.wixstatic.com/media/6820d4_4b4a4f17c36b42eaad73d8c14d83431d~mv2.jpg', alt: '진량 크레인 작업 현장 10' },
-    { src: 'https://static.wixstatic.com/media/6820d4_814daae2f8cf472aa17d385ef62bc3c8~mv2.jpg', alt: '진량 크레인 작업 현장 - 건설 현장' },
-    { src: 'https://static.wixstatic.com/media/6820d4_c58c26e1d39548328222b2aa54cce8c1~mv2.jpg', alt: '진량 크레인 자재 운반 작업 - 석재 운송' },
-    { src: 'https://static.wixstatic.com/media/6820d4_4a76c5a7343042018acb92e831ea50f7~mv2.jpg', alt: '진량 크레인 대형 석재 운반 작업' },
-    { src: 'https://static.wixstatic.com/media/6820d4_a6d63a2f9fe04eb6b908f536f37d9192~mv2.jpeg', alt: '진량 크레인 작업 - 중량물 운반' },
-    { src: 'https://static.wixstatic.com/media/6820d4_c6e57b6001b4421eb9eceda11a24c1fa~mv2.jpeg', alt: '진량 크레인 산악 지역 작업 현장' },
-    { src: 'https://static.wixstatic.com/media/6820d4_68fa81b3d0fe42ae9e231b51b65cba78~mv2.jpeg', alt: '진량 크레인 타워 작업' },
-    { src: 'https://static.wixstatic.com/media/6820d4_9e9f78e30ffa49b5b140a42f2773aba0~mv2.jpeg', alt: '진량 크레인 건설 현장 자재 운반' },
-    { src: 'https://static.wixstatic.com/media/6820d4_d11cf66412b9475e899f7e164bcd3014~mv2.jpeg', alt: '진량 크레인 대형 목재 운반 작업' },
-    { src: 'https://static.wixstatic.com/media/6820d4_9a63e1839fb946c2bcb64a1453e8e7cd~mv2.jpeg', alt: '진량 크레인 도시 지역 크레인 작업' },
-    { src: 'https://static.wixstatic.com/media/6820d4_c52fea20028348c79d6e77d0477f6e45~mv2.jpeg', alt: '진량 크레인 파이프 운반 작업' },
-    { src: 'https://static.wixstatic.com/media/6820d4_a2b6bca564e64ba98734f824aaee699d~mv2.jpeg', alt: '진량 크레인 실내 작업 현장' },
-    { src: 'https://static.wixstatic.com/media/6820d4_61be87a72ed84a719f5c68b708c99edb~mv2.jpeg', alt: '진량 크레인 산악 지역 중량물 운반' },
-    { src: 'https://static.wixstatic.com/media/6820d4_021614c357984edab2601297a18c8145~mv2.jpeg', alt: '진량 크레인 작업 - 정밀 운반' }
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 - 건설 현장' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 1' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 2' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 3' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 4' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 5' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 6' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 7' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 8' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 9' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 10' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 현장 - 건설 현장' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 자재 운반 작업 - 석재 운송' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 대형 석재 운반 작업' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 - 중량물 운반' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 산악 지역 작업 현장' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 타워 작업' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 건설 현장 자재 운반' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 대형 목재 운반 작업' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 도시 지역 크레인 작업' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 파이프 운반 작업' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 실내 작업 현장' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 산악 지역 중량물 운반' },
+    { src: 'https://www.daehancargocrane.com/android-icon-192x192.png', alt: '진량 크레인 작업 - 정밀 운반' }
   ];
 
   useEffect(() => {
@@ -78,16 +78,16 @@ export default function JillyangPage({
   }, []);
 
   const defaultServices = [
-    { title: '중량물 운송', description: '대형 중량물의 안전하고 신속한 운송 서비스', image: 'https://static.wixstatic.com/media/6820d4_c9881f26e2eb4484af8fae344801a956~mv2.png?id=truck-transport-icon', icon: Truck },
-    { title: '자재 운반', description: '건설 현장 자재의 효율적인 운반 솔루션', image: 'https://static.wixstatic.com/media/6820d4_41869dc2ff1e46309c274d78f621442b~mv2.png?id=material-transport-icon', icon: Package },
-    { title: '장비·설비 이전', description: '산업 장비 및 설비의 전문적인 이전 서비스', image: 'https://static.wixstatic.com/media/6820d4_a7fc09449ff5488ca3ca62843afc17c4~mv2.png?id=equipment-relocation-icon', icon: Building },
-    { title: '장비 연계 운송 지원', description: '다양한 장비 연계를 통한 맞춤형 운송 지원', image: 'https://static.wixstatic.com/media/6820d4_be75efdbf12a4da1af625e1c1b22f06c~mv2.png?id=equipment-support-icon', icon: Wrench }
+    { title: '중량물 운송', description: '대형 중량물의 안전하고 신속한 운송 서비스', image: 'https://www.daehancargocrane.com/android-icon-192x192.png', icon: Truck },
+    { title: '자재 운반', description: '건설 현장 자재의 효율적인 운반 솔루션', image: 'https://www.daehancargocrane.com/android-icon-192x192.png', icon: Package },
+    { title: '장비·설비 이전', description: '산업 장비 및 설비의 전문적인 이전 서비스', image: 'https://www.daehancargocrane.com/android-icon-192x192.png', icon: Building },
+    { title: '장비 연계 운송 지원', description: '다양한 장비 연계를 통한 맞춤형 운송 지원', image: 'https://www.daehancargocrane.com/android-icon-192x192.png', icon: Wrench }
   ];
 
   const defaultStrengths = [
-    { title: '안전 우선', description: '모든 작업에서 안전을 최우선으로 하는 시스템', iconImage: 'https://static.wixstatic.com/media/6820d4_cdb85c16a4b0494085b50da8bc740180~mv2.png', icon: Shield },
-    { title: '일정 준수', description: '약속된 일정을 철저히 지키는 신뢰성', iconImage: 'https://static.wixstatic.com/media/6820d4_ec73d53691cc409ab86a6b81fdda104f~mv2.png', icon: Clock },
-    { title: '현장 맞춤 대응력', description: '각 현장의 특성에 맞는 최적화된 솔루션 제공', iconImage: 'https://static.wixstatic.com/media/6820d4_11181c3b812a4a8da75a7f842e015ba9~mv2.png', icon: Target }
+    { title: '안전 우선', description: '모든 작업에서 안전을 최우선으로 하는 시스템', iconImage: 'https://www.daehancargocrane.com/android-icon-192x192.png', icon: Shield },
+    { title: '일정 준수', description: '약속된 일정을 철저히 지키는 신뢰성', iconImage: 'https://www.daehancargocrane.com/android-icon-192x192.png', icon: Clock },
+    { title: '현장 맞춤 대응력', description: '각 현장의 특성에 맞는 최적화된 솔루션 제공', iconImage: 'https://www.daehancargocrane.com/android-icon-192x192.png', icon: Target }
   ];
 
   const displayServices = services.length > 0 ? services : defaultServices;
@@ -132,7 +132,7 @@ export default function JillyangPage({
       <section className="relative h-[50vh] min-h-[400px] overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="https://static.wixstatic.com/media/6820d4_25f1507fa06d4d2f910f93c63873a9ca~mv2.png?originWidth=1920&originHeight=1024"
+            src="https://www.daehancargocrane.com/android-icon-192x192.png"
             alt="진량 크레인 작업 현장"
             className="w-full h-full object-cover"
             width={1920}
@@ -220,12 +220,12 @@ export default function JillyangPage({
                         <Image
                           src={(() => {
                             const providedImages = [
-                              'https://static.wixstatic.com/media/6820d4_9d1871c95c094a8183560db136be62d8~mv2.png',
-                              'https://static.wixstatic.com/media/6820d4_f2e0c7582196418a9762d50bafbce630~mv2.png',
-                              'https://static.wixstatic.com/media/6820d4_69cc42045f66443da1ab80d83447cc7b~mv2.png',
-                              'https://static.wixstatic.com/media/6820d4_f7cd85d436394680a31c4ed9fcf1d5ab~mv2.png'
+                              'https://www.daehancargocrane.com/android-icon-192x192.png',
+                              'https://www.daehancargocrane.com/android-icon-192x192.png',
+                              'https://www.daehancargocrane.com/android-icon-192x192.png',
+                              'https://www.daehancargocrane.com/android-icon-192x192.png'
                             ];
-                            return providedImages[index] || service.image || defaultServices[index]?.image || 'https://static.wixstatic.com/media/6820d4_c9881f26e2eb4484af8fae344801a956~mv2.png?id=default-service-icon';
+                            return providedImages[index] || service.image || defaultServices[index]?.image || 'https://www.daehancargocrane.com/android-icon-192x192.png';
                           })()}
                           alt={service.title || defaultServices[index]?.title || '서비스 이미지'}
                           className="w-16 h-16 mx-auto object-contain"
@@ -400,11 +400,11 @@ export default function JillyangPage({
                       <Image
                         src={(() => {
                           const providedImages = [
-                            'https://static.wixstatic.com/media/6820d4_85d12eef1b2e4ef2bc301c5dac2433fa~mv2.png',
-                            'https://static.wixstatic.com/media/6820d4_0ea4fc30b5a44fa38bfee471295e4b81~mv2.png',
-                            'https://static.wixstatic.com/media/6820d4_e2bfc3695552481a9f0815e62b09bc51~mv2.png'
+                            'https://www.daehancargocrane.com/android-icon-192x192.png',
+                            'https://www.daehancargocrane.com/android-icon-192x192.png',
+                            'https://www.daehancargocrane.com/android-icon-192x192.png'
                           ];
-                          return providedImages[index] || strength.iconImage || 'https://static.wixstatic.com/media/6820d4_c07bcbd2a534420dae7f7da5d9f59354~mv2.png?originWidth=128&originHeight=128';
+                          return providedImages[index] || strength.iconImage || 'https://www.daehancargocrane.com/android-icon-192x192.png';
                         })()}
                         alt={strength.title || defaultStrengths[index]?.title || '강점 아이콘'}
                         className="w-20 h-20 mx-auto object-contain"

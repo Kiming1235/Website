@@ -19,7 +19,7 @@ export const RegionalHead = ({
   addressRegion,
   phone,
   url,
-  ogImage = "https://static.wixstatic.com/media/6820d4_b8bb9e74216a45bda96bf7cfb92afadd~mv2.png",
+  ogImage = "https://www.daehancargocrane.com/android-icon-192x192.png",
   areaServed,
   canonical,
 }: RegionalHeadProps) => {
