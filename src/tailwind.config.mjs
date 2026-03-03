@@ -19,13 +19,13 @@ export default {
                 '9xl': ['8rem', { lineHeight: '1', letterSpacing: '-0.025em', fontWeight: '900' }],
             },
             fontFamily: {
-                heading: ["roboto-bold"],
-                paragraph: ["roboto"],
-                cinzel: ["cinzel", "serif"],
-                roboto: ["roboto", "sans-serif"],
-                "noticia-text": ["noticia text", "serif"],
-                caveat: ["caveat", "cursive"],
-                "geotica-w01-four-open": ["geotica-w01-four-open", "fantasy"]
+                heading: ["Roboto", "ui-sans-serif", "system-ui", "sans-serif"],
+                paragraph: ["Roboto", "ui-sans-serif", "system-ui", "sans-serif"],
+                cinzel: ["Cinzel", "serif"],
+                roboto: ["Roboto", "sans-serif"],
+                "noticia-text": ["Noticia Text", "serif"],
+                caveat: ["Caveat", "cursive"],
+                "geotica-w01-four-open": ["fantasy"]
             },
             colors: {
                 primary: "#FFFFFF",

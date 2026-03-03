@@ -2,19 +2,19 @@ export const Head = () => {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "삼다8476대한크레인, 대한카고크레인",
+    name: "?쇰떎8476??쒗겕?덉씤, ??쒖뭅怨좏겕?덉씤",
     alternateName: "Daehan Cargo Crane",
     description:
-      "대구광역시 동구 신암남로 145(신암동)에 위치한 중량물·산업 장비·건설 자재 운송 전문 기업입니다. 안전하고 효율적인 크레인 연계 운송 솔루션을 제공합니다.",
+      "?援ш킅??떆 ?숆뎄 ?좎븫?⑤줈 145(?좎븫?????꾩튂??以묐웾臾셋룹궛???λ퉬쨌嫄댁꽕 ?먯옱 ?댁넚 ?꾨Ц 湲곗뾽?낅땲?? ?덉쟾?섍퀬 ?⑥쑉?곸씤 ?щ젅???곌퀎 ?댁넚 ?붾（?섏쓣 ?쒓났?⑸땲??",
     url: "https://www.daehancargocrane.com",
     image:
-      "https://static.wixstatic.com/media/6820d4_b8bb9e74216a45bda96bf7cfb92afadd~mv2.png",
+      "/android-icon-192x192.png",
     telephone: "010-2332-4822",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "신암남로 145",
-      addressLocality: "동구",
-      addressRegion: "대구광역시",
+      streetAddress: "?좎븫?⑤줈 145",
+      addressLocality: "?숆뎄",
+      addressRegion: "?援ш킅??떆",
       postalCode: "",
       addressCountry: "KR",
     },
@@ -24,16 +24,16 @@ export const Head = () => {
 
   return (
     <>
-      <title>삼다8476대한크레인, 대한카고크레인 | 중량물·산업 장비 운송 전문 기업</title>
+      <title>?쇰떎8476??쒗겕?덉씤, ??쒖뭅怨좏겕?덉씤 | 以묐웾臾셋룹궛???λ퉬 ?댁넚 ?꾨Ц 湲곗뾽</title>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta
         name="description"
-        content="삼다8476대한크레인, 대한카고크레인은 중량물, 산업 장비, 건설 자재 운송 전문 기업으로, 안전하고 효율적인 맞춤형 운송 솔루션을 제공합니다."
+        content="?쇰떎8476??쒗겕?덉씤, ??쒖뭅怨좏겕?덉씤? 以묐웾臾? ?곗뾽 ?λ퉬, 嫄댁꽕 ?먯옱 ?댁넚 ?꾨Ц 湲곗뾽?쇰줈, ?덉쟾?섍퀬 ?⑥쑉?곸씤 留욎땄???댁넚 ?붾（?섏쓣 ?쒓났?⑸땲??"
       />
       <meta
         name="keywords"
-        content="삼다8476대한크레인, 대한카고크레인, 경산크레인, 대구크레인, 경주크레인, 구미크레인, 성주크레인, 중량물 운송, 산업 장비 운송"
+        content="?쇰떎8476??쒗겕?덉씤, ??쒖뭅怨좏겕?덉씤, 寃쎌궛?щ젅?? ?援ы겕?덉씤, 寃쎌＜?щ젅?? 援щ??щ젅?? ?깆＜?щ젅?? 以묐웾臾??댁넚, ?곗뾽 ?λ퉬 ?댁넚"
       />
       <meta
         name="naver-site-verification"
@@ -88,16 +88,17 @@ export const Head = () => {
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
       <meta name="theme-color" content="#1E293B" />
 
-      {/* ✅ Open Graph (SNS / 네이버 프리뷰용) */}
+      {/* ??Open Graph (SNS / ?ㅼ씠踰??꾨━酉곗슜) */}
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.daehancargocrane.com" />
-      <meta property="og:title" content="삼다8476대한크레인, 대한카고크레인 | 중량물·산업 장비 운송 전문 기업" />
-      <meta property="og:description" content="삼다8476대한크레인, 대한카고크레인은 대구·경산·경주·구미·성주 지역에서 중량물, 산업 장비, 건설 자재 운송을 전문으로 하는 기업입니다." />
+      <meta property="og:title" content="?쇰떎8476??쒗겕?덉씤, ??쒖뭅怨좏겕?덉씤 | 以묐웾臾셋룹궛???λ퉬 ?댁넚 ?꾨Ц 湲곗뾽" />
+      <meta property="og:description" content="?쇰떎8476??쒗겕?덉씤, ??쒖뭅怨좏겕?덉씤? ?援?룰꼍?걔룰꼍二셋룰뎄誘맞룹꽦二?吏??뿉??以묐웾臾? ?곗뾽 ?λ퉬, 嫄댁꽕 ?먯옱 ?댁넚???꾨Ц?쇰줈 ?섎뒗 湲곗뾽?낅땲??" />
       <meta property="og:image" content="https://www.daehancargocrane.com/favicon-192.png" />
 
-      <link rel="preconnect" href="https://static.parastorage.com" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
-      {/* ✅ 구조화 데이터 (JSON-LD) */}
+      {/* ??援ъ“???곗씠??(JSON-LD) */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

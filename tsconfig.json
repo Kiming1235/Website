@@ -22,20 +22,10 @@
       ],
       "@/components/*": [
         "src/components/*"
-      ],
-      "@/integrations/*": [
-        "integrations/*",
-      ],
-      "@/integrations": [
-        "integrations"
-      ],
-      "@wix/codegen-framework-packages": [
-        "integrations"
-      ],
+      ]
     }
   },
   "include": [
-    "src",
-    "integrations"
+    "src"
   ]
 }

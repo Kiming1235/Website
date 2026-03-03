@@ -11,15 +11,15 @@ export interface CompanyStrengths {
   _id: string;
   _createdDate?: Date;
   _updatedDate?: Date;
-  /** @wixFieldType text */
+  /** @fieldType text */
   title?: string;
-  /** @wixFieldType text */
+  /** @fieldType text */
   shortDescription?: string;
-  /** @wixFieldType text */
+  /** @fieldType text */
   detailedDescription?: string;
-  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
+  /** @fieldType image - Contains image URL, render with <Image> component, NOT as text */
   iconImage?: string;
-  /** @wixFieldType number */
+  /** @fieldType number */
   priorityOrder?: number;
 }
 
@@ -32,16 +32,16 @@ export interface Services {
   _id: string;
   _createdDate?: Date;
   _updatedDate?: Date;
-  /** @wixFieldType text */
+  /** @fieldType text */
   title?: string;
-  /** @wixFieldType text */
+  /** @fieldType text */
   shortDescription?: string;
-  /** @wixFieldType text */
+  /** @fieldType text */
   description?: string;
-  /** @wixFieldType image - Contains image URL, render with <Image> component, NOT as text */
+  /** @fieldType image - Contains image URL, render with <Image> component, NOT as text */
   image?: string;
-  /** @wixFieldType text */
+  /** @fieldType text */
   slug?: string;
-  /** @wixFieldType number */
+  /** @fieldType number */
   displayOrder?: number;
 }

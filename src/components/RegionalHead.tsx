@@ -1,6 +1,6 @@
 interface RegionalHeadProps {
   regionName: string;
-  regionTitle: string; // ❗ "청도 크레인" 처럼 | 없이
+  regionTitle: string; // ??"泥?룄 ?щ젅?? 泥섎읆 | ?놁씠
   keywords: string;
   streetAddress: string;
   addressRegion: string;
@@ -19,22 +19,22 @@ export const RegionalHead = ({
   addressRegion,
   phone,
   url,
-  ogImage = "https://static.wixstatic.com/media/6820d4_b8bb9e74216a45bda96bf7cfb92afadd~mv2.png",
+  ogImage = "/android-icon-192x192.png",
   areaServed,
   canonical,
 }: RegionalHeadProps) => {
 
-  const fullTitle = `${regionTitle} 크레인 | 삼다8476대한크레인, 대한카고크레인`;
+  const fullTitle = `${regionTitle} ?щ젅??| ?쇰떎8476??쒗겕?덉씤, ??쒖뭅怨좏겕?덉씤`;
 
   const description =
-    `${regionName} 크레인, ${regionName} 카고크레인, ` +
-    `중량물·산업 장비·건설 자재 운송 전문 기업으로 ` +
-    `안전하고 효율적인 맞춤형 운송 솔루션을 제공합니다.`;
+    `${regionName} ?щ젅?? ${regionName} 移닿퀬?щ젅?? ` +
+    `以묐웾臾셋룹궛???λ퉬쨌嫄댁꽕 ?먯옱 ?댁넚 ?꾨Ц 湲곗뾽?쇰줈 ` +
+    `?덉쟾?섍퀬 ?⑥쑉?곸씤 留욎땄???댁넚 ?붾（?섏쓣 ?쒓났?⑸땲??`;
 
   const localBusinessSchema: any = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: `삼다8476대한크레인 ${regionName}`,
+    name: `?쇰떎8476??쒗겕?덉씤 ${regionName}`,
     alternateName: `Daehan Cargo Crane ${regionName}`,
     description,
     url,
